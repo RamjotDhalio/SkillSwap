@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ff7eb3, #6a5af9);
+  color: #fff;
+}
+
+/* Center container */
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 80px auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Inputs */
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  background: #fff;
+  color: #6a5af9;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Links */
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* Dashboard */
+.dashboard {
+  padding: 20px;
+}
+
+.skill-card {
+  background: rgba(255,255,255,0.15);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.03);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.3);
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.card {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Skills grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  padding: 20px;
+}
+
+/* Profile */
+.profile-card {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.profile-card h2 {
+  font-size: 30px;
+}
+
+.founder-card {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 12px;
+}
+
+/* About */
+.about {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Skills Section */
+.skills-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* CEO Badge */
+.ceo {
+  background: gold;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 8px;
+}

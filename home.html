@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SkillSwap</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2>SkillSwap</h2>
+  <div>
+    <a href="home.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="about.html">About</a>
+    <button onclick="logout()">Logout</button>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Learn. Earn. Exchange.</h1>
+  <p>Connect with people. Share skills. Grow together.</p>
+</section>
+
+<!-- DEMO SKILLS -->
+<section class="skills-section">
+  <h2>🔥 Trending Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>Web Development</h3>
+      <p>Learn HTML, CSS, JS</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Graphic Design</h3>
+      <p>Photoshop & Canva</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Python Programming</h3>
+      <p>Automation & AI Basics</p>
+    </div>
+  </div>
+</section>
+
+<!-- ADD SKILL -->
+<div class="container">
+  <h2>Share Your Skill</h2>
+  <input id="title" placeholder="Skill Title">
+  <input id="desc" placeholder="Description">
+  <button onclick="addSkill()">Post Skill</button>
+</div>
+
+<!-- USER SKILLS -->
+<h2 style="text-align:center;">Community Skills</h2>
+<div id="skills" class="skills-grid"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
